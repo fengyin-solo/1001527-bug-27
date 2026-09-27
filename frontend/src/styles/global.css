@@ -33,3 +33,27 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .error-text { color: #b42318; }
+.notice-text { color: #067647; }
+.filter-item select, .filter-item input { border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 13px; background: #fff; }
+.tag { display: inline-block; border: 1px solid var(--border); border-radius: 10px; padding: 1px 8px; font-size: 12px; color: var(--muted); margin-right: 4px; background: #f8fafc; }
+.tag.warn { border-color: #f79009; color: #b54708; background: #fffaeb; }
+.group-row td { background: #eef4ff; color: #1f2937; font-weight: 600; }
+.row-void td { color: #98a2b3; text-decoration: line-through; }
+.row-void td .tag { text-decoration: none; }
+.modal-mask { position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45); display: flex; align-items: center; justify-content: center; z-index: 20; }
+.modal { background: #fff; border-radius: 10px; padding: 18px 20px; width: 460px; max-width: 92vw; max-height: 84vh; overflow: auto; }
+.modal h3 { margin: 0 0 8px; font-size: 15px; }
+.modal-tip { color: var(--muted); font-size: 12px; margin: 0 0 12px; }
+.modal-field { display: block; margin-bottom: 10px; }
+.modal-field span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.modal-field input, .modal-field textarea { width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 13px; font-family: inherit; }
+.required-mark { color: #b42318; font-style: normal; }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
+.detail-grid { display: grid; grid-template-columns: 96px 1fr; gap: 6px 10px; margin: 0 0 12px; font-size: 13px; }
+.detail-grid dt { color: var(--muted); }
+.detail-grid dd { margin: 0; }
+.trace-title { margin: 0 0 6px; font-size: 13px; }
+.trace-list { list-style: none; margin: 0; padding: 0; font-size: 12px; }
+.trace-list li { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px dashed var(--border); }
+.trace-time { color: var(--muted); min-width: 110px; }
+.trace-action { font-weight: 600; min-width: 56px; }
